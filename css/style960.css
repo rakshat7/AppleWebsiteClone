@@ -1,0 +1,413 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: 'Swansea';
+    src: url('../../Fonts/Swansea-q3pd.ttf');
+}
+/* .container_12
+{
+    background-color: rgba(150, 148, 148, 0.815);
+} */
+.container
+{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background-color: black;
+    /* position: relative; */
+}
+
+.header-nav
+{  
+    width: 100%;
+    height:50px;
+    position: relative;
+    background-color: rgba(39, 40, 41, 0.897);
+}
+
+/* -----Navbar Items------ */
+
+#logo
+{   margin-top: 10px;
+    margin-left: 40px;
+    margin-right: -20px;
+}
+#logo img
+{
+    width: 30px;
+    margin: 0px 20px;
+    padding: 0px;
+    cursor: pointer;
+    /* box-shadow: 0 0 20px 0 #7f7f7f; */
+    border-radius: 20%;
+}
+#logo:hover,#logoB:hover
+{
+    filter: brightness(80);
+}
+#search
+{
+    position: relative;
+    left: 72%;
+    top: 16px;
+    /* outline: greenyellow dashed;    */
+}
+#bag
+{
+    position: relative;
+    left: 72%;
+    top: 16px;
+    left: 74%;
+    /* outline: greenyellow dashed; */    
+}
+#search img,#bag img
+{
+    width: 20px;
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+a
+{
+    text-decoration: none;
+}
+.navbar{
+    width: 80%;
+    height: 50px;
+    padding-top: 0px;
+    position: absolute;
+    left: 10%;
+    margin-bottom: 0px;
+}
+
+.nav-item
+{  
+    float: left;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    padding: 5px 38px 5px 38px;
+    height: 7px;
+    border-radius: 20px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Swansea;
+    color: rgba(151, 155, 158, 0.992);
+    font-weight: 500;  
+}
+
+.nav-item:hover
+{
+    filter: brightness(60);
+    font-weight: 700;
+}
+/* -----Navbar Items Close------ */
+
+#name
+{
+    margin-left:-15px;
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    color: rgba(32, 108, 207, 0.863);
+}
+
+.grid_4 h1 
+{
+    text-align: center;
+    font-variant: small-caps;
+    padding: 15px 0px;
+
+}
+div
+{
+    padding: 0px 0px;
+}
+
+#content .grid_4 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: justify;
+}
+
+/* --------------Banners Media-------------------  */
+
+.banner1
+{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    margin: 50px 0px;
+}
+
+.banner1 img
+{
+    width: 100%;
+    height: 600px;
+}
+#logoB
+{   
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    top: 210px;
+    left: 390px;
+    background-color: transparent;
+}
+.banner2
+{
+    width: 100%;
+    height: auto ;
+    position: relative;
+}
+.banner2 video{
+    width: 100%;
+    height: 600px;
+}
+.banner3 video
+{
+    padding: 20px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 600px ;
+    background-position: center;
+    background-color: white;
+}
+
+.text_block h3
+{   
+    text-align: center;
+    color: rgba(151, 155, 158, 0.992); 
+    background-color: transparent; 
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    font-size: 14px;
+}
+.text_block h2
+{   
+    text-align: center;
+    color: black; 
+    background-color: transparent; 
+    position: absolute;
+    top: 90px;
+    left: 40%;
+}
+
+    
+
+/* -----------Banner Media Close----------- */
+
+.i1,.i2,.i3
+{   
+    /* padding-top: 0px 30px 0px 30px; */
+    width: 445px;
+    height: 681px;
+}
+.media
+{
+    padding: 0px 0px 0px 20px;
+    width: 98%;
+    height: 345px;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px grey solid;
+    
+    /* background-color: rgba(223, 219, 219, 0.87); */
+}
+
+
+.media img
+{
+    margin: 20px 0px 20px 15px;
+    width: 28%;
+    height: auto;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10%;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+    
+}
+.media img:hover
+{
+    border-bottom: 2px grey solid;
+    border-top: 2px grey solid;
+}
+
+.footer
+{
+    color: gray;
+    font-size: 14px;
+    padding: 20px 20px;
+    background-color:rgba(229, 226, 226, 0.904);
+    margin: 50px 10px;
+    position: relative;
+    text-align: center;
+    height: 120px;
+}
+
+
+/* .hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(30, 30, 30, 0.4), rgba(30, 30, 30, 0.4)), url(images/HCWhite.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+
+.form-box {
+    background-image: url(images/HCWhite.jpg);
+    width: 380px;
+    height: 480px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px buttonface;
+    border-radius: 30px;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, blue, cyan);
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.login-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+
+.register-group {
+    top: 140px;
+
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-login {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: black;
+
+}
+
+input,
+select,
+textarea {
+    color: wheat;
+    font: monospace;
+
+}
+
+.input-register {
+
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, blue, cyan);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.register-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, blue, cyan);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+
+    left: 50px;
+}
+
+#messages {
+    left: 70px;
+    bottom: 360px;
+    font: monospace;
+    color: highlight;
+}
